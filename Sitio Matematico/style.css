@@ -1,0 +1,19 @@
+body{
+	background-color: rgb(50,50,50);
+}
+.row{
+	background-color:white;
+}
+#miCalculadora{
+	display: flex;
+	justify-content:center;
+}
+.btn{
+	height:80px;
+	width: 80px;
+	margin: 5px 10px 10px 10px;
+}
+.botonNumero{
+	height: 40px;
+	width: 40px;
+}

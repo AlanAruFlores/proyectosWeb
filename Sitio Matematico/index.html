@@ -1,0 +1,99 @@
+	<!DOCTYPE html>
+	<html lang = "es">
+		<head>
+			<meta charset ="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+			<link rel="stylesheet" href="style.css">
+			<title>Calculadora</title>
+		</head>
+		<body class ="container">
+			<br>
+			<div class = "row">
+				<h1>Calculadora</h1>
+				<p>Hola, Como estas. En esta pagina podras hacer operaciones aritmeticas basicas.</p>
+			</div>
+			<br>
+			<div class ="row">
+				<div class ="col" id="miCalculadora">
+						<div class="card" style="width: 30rem;">
+						  <div class="card-body">
+							  <div class ="row">
+									<div class ="resultado">
+										<input type ="text" class = "form-control">
+									</div>
+							  </div>
+								<br>
+								<br>
+							  <div class ="row">
+							  <div class = "misOperadores col">
+									<div class="btn-group" role="group" aria-label="First group">
+										<button type="button" class="btn btn-primary" onclick="operadores(1);">+</button>
+										<button type="button" class="btn btn-success" onclick="operadores(2);">-</button>
+									</div>
+									<br>
+									<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+										<button type="button" class="btn btn-warning" onclick="operadores(3);">X</button>
+										<button type="button" class="btn btn-danger" onclick="operadores(4);">%</button>
+									</div>
+								</div>
+								<div class = "misNumeros col">
+									<div class="btn-group">
+										<button type="button" class="btn btn-primary botonNumero">1</button>
+										<button type="button" class="btn btn-primary botonNumero">2</button>
+										<button type="button" class="btn btn-primary botonNumero">3</button>
+									</div>
+									<br>
+									<div class="btn-group">
+										<button type="button" class="btn btn-primary botonNumero">4</button>
+										<button type="button" class="btn btn-primary botonNumero">5</button>
+										<button type="button" class="btn btn-primary botonNumero">6</button>
+									</div>
+									<br>
+									<div class="btn-group">
+										<button type="button" class="btn btn-primary botonNumero">7</button>
+										<button type="button" class="btn btn-primary botonNumero">8</button>
+										<button type="button" class="btn btn-primary botonNumero">9</button>
+									</div>
+									<br>
+									<div class="btn-group">
+										<button type="button" class="btn btn-primary botonNumero">0</button>
+									</div>
+								</div>
+							</div>
+							<div class="row g-2">
+								<div class="col-md">
+								  <div class="form-floating">
+									<input type="text" class="form-control" id="campo" placeholder="Numero">
+								  </div>
+								</div>
+								<div class="col-md">
+								  <div class="form-floating">
+									<input type="text" class = "form-control"  placeholder="Numero" id="campo">
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>>
+			<!--
+			<div>
+				<input type = "number" placeholder ="Digite el numero" required id ="numero">
+				<input type = "number" placeholder ="Digite el numero" required id ="numero2">
+			</div>
+			
+			<button type="button" class="btn btn-primary" onclick="operadores(1);">Sumar</button>
+			<button type="button" class="btn btn-success" onclick="operadores(2);">Restar</button>
+			<button type="button" class="btn btn-warning" onclick="operadores(3);">Multiplicar</button>
+			<button type="button" class="btn btn-danger" onclick="operadores(4);">Dividir</button>
+			
+			<div>
+				<label>Resultado</label>
+				<input type ="text" id ="result" disabled>
+			</div>
+			<script src="script.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		-->
+		</body>
+	</html>
